@@ -6,7 +6,7 @@
 /*   By: ymehlil <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 14:34:27 by ymehlil           #+#    #+#             */
-/*   Updated: 2022/12/30 18:52:34 by ymehlil          ###   ########.fr       */
+/*   Updated: 2023/01/04 22:04:59 by ymehlil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ void		free_list(t_stack *debut_a);
 void		calcul_cost(t_stack **b, t_stack **a, t_data *data, int **tab);
 void		push_top_a(t_stack **a, t_stack **b, int value, int maj);
 void		push2(int i, int j, t_stack **a, t_stack **b);
-void		sort_cost(t_stack **stack_b, t_stack **stack_a, t_data *data);
+void		sort(t_stack **stack_b, t_stack **stack_a, t_data *data);
 void		push_min_cost(t_stack **b, t_stack **a, t_data *data, int **tab);
 char		*create_array_ptr(t_stack *stack, int len);
 

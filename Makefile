@@ -6,14 +6,15 @@
 #    By: ymehlil <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/13 14:34:48 by ymehlil           #+#    #+#              #
-#    Updated: 2022/12/30 18:53:24 by ymehlil          ###   ########.fr        #
+#    Updated: 2023/01/04 21:55:44 by ymehlil          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= push_swap
 
 SRCS	=	push_swap.c push_swap_parsing.c utils.c sa_sb.c pa_pb.c ra_rb.c rra_rrb.c \
-			sort.c cost.c push.c
+			sort.c push.c cost.c
+
 SRCSD 	= srcs/
 
 OBJSD 	= objs/

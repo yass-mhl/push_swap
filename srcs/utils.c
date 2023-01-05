@@ -6,7 +6,7 @@
 /*   By: ymehlil <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/21 13:49:55 by ymehlil           #+#    #+#             */
-/*   Updated: 2022/12/30 11:45:54 by ymehlil          ###   ########.fr       */
+/*   Updated: 2023/01/01 17:31:00 by ymehlil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,22 +91,6 @@ void	ft_sort_int_tab(int *tab, int size)
 		j = i + 1;
 		i++;
 	}
-}
-
-void	stack_destroy(t_stack **stack)
-{
-	t_stack	*tmp_begin;
-	t_stack	*tmp;
-
-	tmp_begin = (*stack);
-	while (tmp_begin != NULL)
-	{
-		tmp = tmp_begin;
-		tmp_begin = tmp_begin->next;
-		free(tmp);
-	}
-	free(*stack);
-	*stack = NULL;
 }
 
 void	free_list(t_stack *debut_a)
